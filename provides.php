@@ -2,10 +2,10 @@
 
 return array(
     'client_tabs' => array(
-        'teamviewer-tab' => array('view' => 'teamviewer_tab', 'i18n' => 'teamviewer.teamviewer'),
+        'anydesk-tab' => array('view' => 'anydesk_tab', 'i18n' => 'anydesk.anydesk'),
     ),
     'listings' => array(
-        'teamviewer' => array('view' => 'teamviewer_listing', 'i18n' => 'teamviewer.teamviewer'),
+        'anydesk' => array('view' => 'anydesk_listing', 'i18n' => 'anydesk.anydesk'),
     ),
 );
 
