@@ -13,8 +13,8 @@ from munkilib import FoundationPlist
 
 def get_prefs():
                 
-    if os.path.isfile('/Library/Preferences/com.teamviewer.teamviewer.preferences.plist'):
-        prefs = "/Library/Preferences/com.teamviewer.teamviewer.preferences.plist" + "\n"
+    if os.path.isfile('/etc/anydesk/system.conf'):
+        prefs = "/etc/anydesk/system.conf" + "\n"
     else:
         prefs = ""
                 
@@ -28,7 +28,7 @@ def get_prefs():
     # Get user prefs
     for user in output.split('\n'):
         if 'NFSHomeDirectory' in user and '/var/empty' not in user:
-            userpath = user.replace("NFSHomeDirectory: ", "")+'/Library/Preferences/com.teamviewer.teamviewer.preferences.Machine.plist'
+            userpath = user.replace("NFSHomeDirectory: ", "")+'/etc/anydesk/system.conf'
             if os.path.isfile(userpath):
                 prefs = userpath + "\n" + prefs 
                     
