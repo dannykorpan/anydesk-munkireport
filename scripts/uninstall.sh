@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Remove teamviewer script
-rm -f "${MUNKIPATH}preflight.d/teamviewer"
+# Remove AnyDesk script
+rm -f "${MUNKIPATH}preflight.d/anydesk"
 
-# Remove teamviewer.plist file
-rm -f "${CACHEPATH}teamviewer.plist"
+# Remove anydesk.plist file
+rm -f "${CACHEPATH}anydesk.plist"
