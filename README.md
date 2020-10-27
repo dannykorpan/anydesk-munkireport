@@ -6,8 +6,8 @@ Collects data about the AnyDesk instance on the client and provides a link to co
 Table Schema
 ----
 
-* clientid - int - Client ID (the magic number)
-* clientic - int - Client IC
+* anynet_id - int - Client ID (the magic number)
+* anynet_alias - string - Alias
 * always_online - boolean - Is always online
 * autoupdatemode - int - Auto update mode
 * version - varchar(255) - Last opened version of TeamViewer on client
@@ -25,3 +25,16 @@ Table Schema
 * had_a_commercial_connection - boolean - Had a commercial connection before
 * prefpath - string - location of preference file
 * updateversion - string - Detected/known versions that can be updated to
+
+ad.anynet.fpr=
+ad.anynet.relay.error=
+ad.anynet.relay.state=
+ad.anynet.conn_addrs=
+ad.anynet.network_id=main
+ad.license.name=free-1
+ad.anynet.cur_version=25769803776
+ad.security.interactive_access=0
+ad.discovery.hidden=true
+ad.security.uaccess.privacy_feature=false
+ad.security.tcp_tunnel=true
+ad.anynet.network_hash=
