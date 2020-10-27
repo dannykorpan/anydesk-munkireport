@@ -2,9 +2,9 @@
 return [
 	/*
 	|===============================================
-	| TeamViewer links in the client detail view
+	| AnyDesk links in the client detail view
 	|===============================================
 	*/
 
-    'teamviewer_link' => env('TEAMVIEWER_LINK',"teamviewer10://control?device="),
+    'anydesk_link' => env('ANYDESK_LINK',"anydesk6://control?device="),
 ];
