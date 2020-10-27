@@ -1,1 +1,1 @@
-{"require":{"php":"^7.0"},"license":"MIT","name":"tuxudo/teamviewer","description":"Team Viewer module for munkireport."}
+{"require":{"php":"^7.0"},"license":"MIT","name":"dannykorpan/anydesk-munkireport","description":"AnyDesk module for munkireport."}
